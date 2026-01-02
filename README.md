@@ -71,3 +71,20 @@ http://127.0.0.1:8000
 ```bash
 python labs/02_dns/dns_lookup.py google.com
 ```
+
+실행 시 아래와 같은 로그가 출력됩니다.
+
+```text
+[DNS] domain=google.com
+ -> 142.250.197.206
+```
+
+- `domain=google.com`  
+  → 사용자가 조회한 도메인 이름
+
+- `142.250.197.206`  
+  → 해당 도메인이 변환된 IP 주소  
+  → DNS(Domain Name System)가 도메인 이름을 실제 서버의 IP로 변환한 결과
+
+💡 이 IP 주소를 통해  
+컴퓨터는 도메인 이름이 아닌 **IP**를 사용해 서버와 통신합니다.
