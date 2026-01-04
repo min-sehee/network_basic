@@ -203,11 +203,16 @@ python labs/03_client/client.py http://<사설IP>:8000
 ### 예시 출력 (localhost)
 
 ```text
+[INPUT] host=localhost, port=8000, path=/
 [DNS] resolved IPs:
  - 127.0.0.1
  - ::1
 [TCP] connect to 127.0.0.1:8000 = 0.5 ms
 [HTTP] status=200
+[HTTP] body preview:
+OK! You reached the server.
+client_ip=127.0.0.1
+Try accessing via localhost and via your private IP.
 ```
 
 💡 `localhost`는 내 컴퓨터 자신을 가리키는 주소이고,  
