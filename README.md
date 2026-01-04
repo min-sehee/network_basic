@@ -76,7 +76,7 @@ python labs/02_dns/dns_lookup.py google.com
 
 ```text
 [DNS] domain=google.com
- -> 142.250.197.206
+ -> 142.250.x.x
 ```
 
 - `domain=google.com`  
@@ -86,5 +86,4 @@ python labs/02_dns/dns_lookup.py google.com
   → 해당 도메인이 변환된 IP 주소  
   → DNS(Domain Name System)가 도메인 이름을 실제 서버의 IP로 변환한 결과
 
-💡 이 IP 주소를 통해  
-컴퓨터는 도메인 이름이 아닌 **IP**를 사용해 서버와 통신합니다.
+💡 이 IP 주소를 통해 컴퓨터는 도메인 이름이 아닌 **IP**를 사용해 서버와 통신합니다.
