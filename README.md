@@ -7,9 +7,9 @@
 
 ## ⚙️ 요구 사항
 
-- Python 3.9+
-- Python 표준 라이브러리만 사용합니다.
-- 별도 패키지 설치가 필요 없습니다.
+```bash
+pip install flask
+```
 
 ---
 
