@@ -162,6 +162,12 @@ python labs/02_dns/dns_lookup.py ys.learnus.org
 ### 실행
 
 ```bash
+python labs/01_ip_port_http/app.py
+```
+
+✔️ Lab 1을 실행한 상태로 다른 터미널을 열어서 아래의 명령어를 입력합니다
+
+```bash
 # localhost로 요청
 python labs/03_client/client.py http://localhost:8000
 ```
